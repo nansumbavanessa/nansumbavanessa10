@@ -1,0 +1,177 @@
+h1{
+
+    color: rgb(5, 2, 5);
+   
+    font-size: medium;
+   
+    text-align: center;
+    justify-content: center;
+}
+
+nav{
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    display: flex;
+    text-align: center;
+    
+    background-color: rgb(209, 206, 206);
+    color: black;
+
+}
+nav img{
+    height: 40px;
+   margin-left: 10%;
+    border-radius: 4px;
+
+}
+a li{
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    
+}
+a{
+    text-decoration: none;
+    display:flex;
+    color: rgb(44, 56, 2); 
+    font-weight: 500;
+    margin-left: 4%;
+    font-size: medium;
+}
+a :hover{
+    color: aqua;
+}
+.navtext{
+  display: flex;
+  
+}
+.about img{
+    width: 90%;
+    height: 250px;
+    margin-left: 5%
+}
+.about p{
+   margin-left: 20%
+}
+.about button{
+background-color: green; 
+color: white;  border-radius: 4px;
+ border-color:   green;
+ border: solid 0px;
+ margin-left: 30%
+}
+
+
+
+
+#schools {
+    padding: clamp(1rem, 5vw, 3rem);
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: rgb(236, 234, 232);
+}
+
+#schools h2 {
+    text-align: center;
+ 
+    color: aqua;
+    
+    
+}
+
+.schools-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: clamp(1.5rem, 3vw, 2.5rem);
+    margin-top: 1rem;
+}
+
+.school {
+    
+    padding: 1.5rem;
+    border-radius: 15px;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+    border: 1px solid rgba(0,0,0,0.05);
+}
+
+.school:hover {
+    transform: translateY(-5px);
+    box-shadow: 8px 8px 20px rgba(0,0,0,0.15);
+}
+
+.school .year {
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+    margin-bottom: 0.5rem;
+}
+
+.school .name {
+    font-size: 1.1rem;
+    
+}
+
+
+
+
+#hobbies {
+ 
+    max-width: 800px;
+    margin: 0 auto;
+}
+#hobbies h2{
+    text-align: center;
+ 
+    color: aqua;
+}
+
+#hobbies ul {
+    display: grid;
+  
+    gap: 1rem;
+    list-style: none;
+    margin-top: 1rem;
+}
+
+#hobbies li {
+    background-color: green;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    color: aliceblue;
+}
+
+
+#work {
+    padding: clamp(1rem, 5vw, 3rem);
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+#work p {
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: rgb(236, 224, 200);
+    border-radius: 8px;
+}
+#work h2{
+    text-align: center;
+ 
+    color: aqua;
+}
+
+footer {
+    background-color: rgb(245, 134, 134);
+   color: rgb(23, 138, 238);
+    text-align: center;
+    margin-bottom: 0px;
+    height: 20%;
+    
+    
+}
+
